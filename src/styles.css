@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica;
+}
+
+table,
+tr,
+td {
+  border: solid black 1px;
+  width: 60px;
+  height: 60px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 30px;
+  table-layout: fixed;
+}
+.p1 {
+  background-color: rgb(124, 252, 0);
+}
+.p2 {
+  background-color: rgb(250, 128, 114);
+}
+.timerBar {
+  height: 24px;
+  width: 100%;
+}
