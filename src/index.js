@@ -25,14 +25,14 @@ var seconds = 10;
 
 function changeValue(tdID) {
   var square = document.getElementById(tdID).innerHTML;
-  if (square === "X" || square === "O") {
+  if (square === "x" || square === "o") {
     alert("Already taken! Pick another one.");
   } else {
     if (playerTurn === 1) {
       const att = document.createAttribute("class");
       att.value = "p1";
       document.getElementById(tdID).setAttributeNode(att);
-      document.getElementById(tdID).innerHTML = "X";
+      document.getElementById(tdID).innerHTML = "x";
       playerTurn++;
       movesMade++;
       resetTimer();
@@ -42,7 +42,7 @@ function changeValue(tdID) {
         const att = document.createAttribute("class");
         att.value = "p2";
         document.getElementById(tdID).setAttributeNode(att);
-        document.getElementById(tdID).innerHTML = "O";
+        document.getElementById(tdID).innerHTML = "o";
         playerTurn--;
         movesMade++;
         resetTimer();
@@ -57,10 +57,10 @@ function isGameOver() {
   for (var i = 0; i < 12; i++) {
     for (var j = 0; j < 5; j++) {
       var square = document.getElementById(possibleWins[i][j]).innerHTML;
-      if (square === "X") {
+      if (square === "x") {
         countX++;
       }
-      if (square === "O") {
+      if (square === "o") {
         countO++;
       }
     }
