@@ -2,8 +2,6 @@ body {
   font-family: Helvetica;
 }
 
-table,
-tr,
 td {
   border: solid black 1px;
   width: 60px;
