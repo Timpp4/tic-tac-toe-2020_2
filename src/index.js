@@ -97,7 +97,10 @@ function checkForDraw() {
 
 function newGame() {
   for (var i = 0; i < 25; i++) {
+    const att = document.createAttribute("class");
+    att.value = "empty";
     document.getElementById(i).innerHTML = "";
+    document.getElementById(i).setAttributeNode(att);
   }
   countX = 0;
   countO = 0;
