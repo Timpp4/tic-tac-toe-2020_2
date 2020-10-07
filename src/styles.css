@@ -20,6 +20,9 @@ td {
 .p2 {
   background-color: rgb(250, 128, 114);
 }
+.empty {
+  background-color: white;
+}
 .timerBar {
   height: 24px;
   width: 100%;
