@@ -16,6 +16,7 @@ td {
   font-family: Helvetica;
   table-layout: fixed;
   background-color: white;
+  padding: 0;
 }
 .p1 {
   background-color: rgb(124, 252, 0);
