@@ -1,8 +1,10 @@
 body {
   font-family: Helvetica;
+  padding-top: 1em;
 }
 table,
 td {
+  margin-left: 1em;
   border: solid black 1px;
   width: 60px;
   height: 60px;
@@ -11,6 +13,7 @@ td {
   font-size: 30px;
   font-family: Helvetica;
   table-layout: fixed;
+  background-color: white;
 }
 .p1 {
   background-color: rgb(124, 252, 0);
